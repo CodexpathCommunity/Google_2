@@ -26,11 +26,7 @@ export default function Home() {
         </div>
       </header>
       <form action="">
-        <Image
-          src="https://i.dlpng.com/static/png/5498599-google-logo-background-png-download-1600900-free-transparent-google-logo-transparent-900_520_preview.png"
-          height={100}
-          width={300}
-        />
+        <Image src="/images/ggle.png" height={100} width={300} />
       </form>
     </div>
   );
