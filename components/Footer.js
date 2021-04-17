@@ -7,18 +7,20 @@ function Footer() {
         <p className="">Nigeria</p>
       </div>
       <div className="grid grid-cols-1">
-        <GlobeIcon className="h-5 mr-1 text-green-700" /> Carbon neutral since
-        2007
-      </div>
-      <div className="">
-        <p className="">Advertising</p>
-        <p className="">Business</p>
-        <p className="">How Search works</p>
-      </div>
-      <div className="">
-        <p className="">Privacy</p>
-        <p className="">Terms</p>
-        <p className="">Settings</p>
+        <div className="flex justify-center">
+          <GlobeIcon className="h-5 mr-1 text-green-700" /> Carbon neutral since
+          2007
+        </div>
+        <div className="flex justify-center space-x-3 whitespace-nowrap md:justify-self-start">
+          <p className="">Advertising</p>
+          <p className="">Business</p>
+          <p className="">How Search works</p>
+        </div>
+        <div className="flex justify-center space-x-8 md:ml-auto , ">
+          <p className="">Privacy</p>
+          <p className="">Terms</p>
+          <p className="">Settings</p>
+        </div>
       </div>
     </footer>
   );
