@@ -17,7 +17,7 @@ export default function Home() {
     e.preventDefault();
     const term = searchInputRef.current.value;
     if (!term) return;
-    router.push(`/search?.term=${term}`);
+    router.push(`/search?term=${term}`);
   };
   return (
     <div className="flex flex-col items-center justify-center h-screen">
