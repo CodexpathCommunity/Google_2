@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Image from "next/Image";
+import Image from "next/image";
 import Avatar from "../components/Avatar";
 import {
   MicrophoneIcon,
